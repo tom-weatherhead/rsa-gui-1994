@@ -37,7 +37,7 @@ void TUUEncodeDlg::SetupWindow( void )
     TDialog::SetupWindow();
     strcpy( LinesPerFileStr, "950" );
     EditLinesPerFile->Insert( LinesPerFileStr );
-    SendDlgItemMsg( ID_LINESPERFILE, WM_DRAWITEM, NULL, 0 );
+    //SendDlgItemMsg( ID_LINESPERFILE, WM_DRAWITEM, NULL, 0 );
 } // TUUEncodeDlg::SetupWindow()
 
 

@@ -35,7 +35,7 @@ void TGenKeysDlg::SetupWindow( void )
     TDialog::SetupWindow();
     strcpy( KeySizeStr, "20" );
     EditKeySize->Insert( KeySizeStr );
-    SendDlgItemMsg( ID_KEYSIZE, WM_DRAWITEM, NULL, 0 );
+    //SendDlgItemMsg( ID_KEYSIZE, WM_DRAWITEM, NULL, 0 );
 } // TGenKeysDlg::SetupWindow()
 
 
